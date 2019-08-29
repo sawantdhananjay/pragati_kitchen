@@ -1,0 +1,246 @@
+body{
+  padding: 0px!important;
+  margin:0px!important;
+}
+
+
+$white:#fff;
+$grey:#f8f8f8;
+$darkgrey:#1c1c1c;
+$mycolor:#d2233f;
+$btn_color:#333;
+.row{
+  padding: 0px!important;
+  margin:0px!important;
+}
+.container-fluid{
+  padding: 0px!important;
+  margin:0px!important;
+}
+
+h1 h2 h3 h4 h5 {
+	font-family: 'Roboto', sans-serif;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+.btn-kitchen{
+    padding: 8px 20px;
+    background-color: $btn_color;
+    outline-color: $btn_color;
+    border-color: $btn_color;
+    border-radius: 0px;
+    font-size: 16px;
+}
+.btn-kitchen:hover{
+  background-color: $white;
+border-color: $btn_color;
+color: $btn_color;
+}
+// nav bar start
+.navbar{
+  padding: 0px!important;
+}
+.navbar .nav-item{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.navbar .nav-link{
+  padding-top: 18px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.navbar-brand{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  box-shadow: 0 -2.804px 16.74px 0.26px #777;
+  margin-bottom: -5px;
+  z-index: 9;
+}
+// nav bar ends
+
+// types container strart
+.types{
+  margin: 50px 0px;
+  padding: 50px 0px;
+  .row{
+    padding-bottom: 20px!important;
+    margin-bottom: 20px!important;
+    img{
+      width: 100%;
+      height: auto;
+    }
+    h2{
+      padding-top: 25px;
+      font-weight: 500;
+    }
+    h4{
+      padding-top: 10px;
+      font-weight: 400;
+    }
+    p{
+      padding-top: 10px;
+      font-size: 14px;
+      text-align: justify;
+    }
+
+  }
+}
+// types container ends
+
+// happy clients start
+#happy-clients{
+  background: $grey;
+  margin: 50px 0px!important;
+  padding: 50px 0px!important;
+
+  .box{
+    padding: 20px;
+  }
+  .img-box img{
+     width: 100%;
+     height: auto;
+     border-radius: 50%;
+     margin-bottom: 10px;
+  }
+
+  h3, p{
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+}
+// happy clients ends
+
+// home gallery start
+.home-gallery{
+  margin: 50px 0px;
+  padding: 40px 0px;
+    h2{
+      font-size: 32px;
+      font-weight: 500;
+      text-align: center!important;
+      padding-bottom: 15px;
+    }
+  .item img{
+    width: 100%;
+    height: auto;
+  }
+}
+// home gallery ends
+
+// speciality start
+
+#speciality{
+  margin: 50px 0px!important;
+  padding: 50px 0px!important;
+  background-color: $grey;
+  h1{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+// speciality ends
+
+// process start
+.process{
+  margin: 30px 0px;
+  padding: 30px 0px;
+  h1{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+// Process ends
+
+// testomonial start
+.testomonial{
+  margin: 50px 0px;
+  padding: 50px 0px;
+  h1{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  img{
+    text-align: center;
+    width: 250px!important;
+    height: 250px!important;
+    border-radius: 50%;
+  }
+  .carousel-item{
+    left: 40%;
+  }
+.carousel-caption{
+  padding-top: 20px;
+}
+  h5, p{
+  color: #000;
+  }
+}
+
+// testomonial ends
+
+// parallex start
+.parallex{
+  text-align: center;
+  background: url("../../assets/images/banner/01.jpg") no-repeat 0 100%;
+ color: #fff;
+width: 100%;
+/* Set a specific height */
+height: 100px;
+opacity: 0.7;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+h5{
+  padding-top: 2%;
+}
+}
+
+// parallex ends
+
+// footer start
+footer{
+  padding-top: 50px;
+    background-color: $darkgrey;
+  h6, p{
+    text-align: center;
+    color: #fff;
+  }
+  #footer-copyright{
+    background-color: #111!important;
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;
+    .last-foot{
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+    }
+    p{
+      margin-bottom: 0px!important;
+    }
+  }
+}
+
+// footer ends
