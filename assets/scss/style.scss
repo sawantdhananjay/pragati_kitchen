@@ -1,6 +1,7 @@
 body{
   padding: 0px!important;
   margin:0px!important;
+  font-family: 'Roboto', sans-serif!important;
 }
 
 
@@ -19,10 +20,10 @@ $btn_color:#333;
 }
 
 h1 h2 h3 h4 h5 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif!important;
 }
 p{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif!important;
 }
 .btn-kitchen{
     padding: 8px 20px;
@@ -37,9 +38,34 @@ p{
 border-color: $btn_color;
 color: $btn_color;
 }
+.btn-kitchen:active{
+  background-color: $white!important;
+border-color: $btn_color!important;
+color: $btn_color!important;
+}
+.btn-kitchen:focus{
+  box-shadow: none!important;
+}
+
+
+a{
+  text-decoration: none!important;
+  color: inherit;
+}
 // nav bar start
+.sticky {
+position: fixed !important;
+top: 0px !important;
+left: 0px !important;
+z-index: 999 !important;
+margin: auto !important;
+width:100% !important;
+background: $white;
+/* transform: scale(1); */
+}
 .navbar{
   padding: 0px!important;
+  overflow: hidden;
 }
 .navbar .nav-item{
   padding-left: 30px;
@@ -177,7 +203,7 @@ color: $btn_color;
   h1{
     font-size: 36px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 50px;
   }
   img{
@@ -186,14 +212,44 @@ color: $btn_color;
     height: 250px!important;
     border-radius: 50%;
   }
+
+  .carousel-indicators{
+      bottom: -15px;
+
+       li {
+       border-radius: 10px;
+       border: 2px solid #000;
+       margin: 1px 3px;
+       height: 10px;
+       max-width: 10px;
+       background-color: #fff!important;
+       background-color: transparent;
+       word-spacing: 27px;
+   }
+  .active {
+       background-color: $mycolor!important;
+       border-radius: 50%;
+       border: 2px solid $mycolor;
+       max-width: 12px;
+       margin: 0 3px;
+       height: 12px;
+   }
+}
   .carousel-item{
-    left: 40%;
+      left: 22%;
   }
 .carousel-caption{
   padding-top: 20px;
 }
   h5, p{
   color: #000;
+  }
+  .card{
+    text-align: center;
+    border: inherit;
+    .card-img-top{
+      align-self: center;
+    }
   }
 }
 
@@ -224,11 +280,20 @@ h5{
 footer{
   padding-top: 50px;
     background-color: $darkgrey;
-  h6, p{
+   p{
     text-align: center;
-    color: #fff;
+    color: $white;
+  }
+  h6{
+    color: $white;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  #footer{
+    padding-bottom: 40px!important;
   }
   #footer-copyright{
+
     background-color: #111!important;
     padding-top: 15px!important;
     padding-bottom: 15px!important;
@@ -240,7 +305,176 @@ footer{
     p{
       margin-bottom: 0px!important;
     }
+    a{
+      width: auto!important;
+    }
   }
 }
 
 // footer ends
+
+
+.go-top {
+	position: fixed;
+	z-index: 900;
+	right: 10px;
+	bottom: 140px;
+	display: none;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: $mycolor !important;
+	font-size: 40px;
+	text-align: center;
+	color: #fff !important;
+	transition: background 0.3s, color 0.3s;
+	-ms-transition: background 0.3s, color 0.3s;
+	-moz-transition: background 0.3s, color 0.3s;
+	-webkit-transition: background 0.3s, color 0.3s;
+}
+.go-top i{
+	line-height: 57px;
+  font-size: 44px;
+}
+.go-top:hover {
+	background: $darkgrey!important;
+	color: $mycolor!important;
+}
+.go-top{
+  bottom: 6rem;
+}
+// about page start
+.about-page{
+  .parallex-about{
+    text-align: center;
+    background: url("../../assets/images/banner/01.jpg") no-repeat 0 100%;
+   color: #fff;
+  width: 100%;
+  /* Set a specific height */
+  height: 200px;
+  opacity: 0.7;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  #about{
+    .row{
+      margin: 30px 0px!important;
+      padding:30px 0px!important;
+    }
+  }
+  #about-middle{
+    margin: 0px 0px!important;
+    padding:30px 0px!important;
+    background-color: $grey;
+    h2{
+      font-size: 42px;
+      padding-top: 10px;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+    .left h4{
+      text-align: right;
+    }
+    .left p{
+      text-align: right;
+    }
+    .right h4{
+      text-align: left;
+    }
+    .right p{
+      text-align: left;
+    }
+  }
+}
+
+
+// about page ends
+// gallery page start
+.gallery-page{
+  padding-top: 0px;
+  padding-bottom: 50px;
+
+  .parallex-gallery{
+    text-align: center;
+    background: url("../../assets/images/banner/01.jpg") no-repeat 0 100%;
+   color: #fff;
+  width: 100%;
+  /* Set a specific height */
+  height: 200px;
+  opacity: 0.7;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 42px;
+    text-align: center;
+  }
+  .ih-item.square {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: none!important;
+    box-shadow: none!important;
+}
+  .img img{
+    width: 100%;
+    height: 250px;
+  }
+}
+
+// gallery page ends
+
+// contact page start
+.contact-page{
+  .parallex-contact{
+    text-align: center;
+    background: url("../../assets/images/banner/01.jpg") no-repeat 0 100%;
+   color: #fff;
+  width: 100%;
+  /* Set a specific height */
+  height: 200px;
+  opacity: 0.7;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  #contact{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    h2{
+      text-align: center;
+      font-size: 42px;
+      padding-top: 20px;
+      padding-bottom: 30px;
+    }
+    #contact-left{
+      padding-top: 30px;
+    }
+    #contact-right{
+      h3{
+        padding-bottom: 15px;
+      }
+      .alert-success{
+        display: none;
+      }
+      .alert-danger{
+        display:none;
+      }
+    }
+  }
+}
+
+// contact page end

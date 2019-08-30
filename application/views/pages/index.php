@@ -40,21 +40,29 @@
         <h2>MODERN KITCHENS</h2>
         <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.leap into electronic typesetting, remaining essentially unchanged. </p>
+        <div data-aos="fade-right">
         <a href="#" class="btn btn-kitchen btn-primary btn-lg " role="button" aria-pressed="true">Primary link</a>
+        </div>
       </div>
       <div class="col-md-6">
+        <div data-aos="fade-left">
         <img src="<?php echo base_url(); ?>assets/images/types1.jpg" alt="">
+        </div>
       </div>
   </div>
   <div class="row">
       <div class="col-md-6">
+        <div data-aos="fade-right">
         <img src="<?php echo base_url(); ?>assets/images/types2.jpg" alt="">
+      </div>
       </div>
       <div class="col-md-6">
         <h2>MODERN KITCHENS</h2>
         <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.leap into electronic typesetting, remaining essentially unchanged. </p>
+          <div data-aos="fade-left">
           <a href="#" class="btn btn-primary btn-kitchen btn-lg " role="button" aria-pressed="true">Primary link</a>
+        </div>
       </div>
   </div>
   <div class="row">
@@ -62,10 +70,14 @@
       <h2>MODERN KITCHENS</h2>
       <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.leap into electronic typesetting, remaining essentially unchanged. </p>
+        <div data-aos="fade-right">
         <a href="#" class="btn btn-primary btn-kitchen btn-lg" role="button" aria-pressed="true">Primary link</a>
+      </div>
     </div>
       <div class="col-md-6">
+        <div data-aos="fade-left">
         <img src="<?php echo base_url(); ?>assets/images/types3.jpg" alt="">
+      </div>
       </div>
   </div>
 </div>
@@ -76,47 +88,59 @@
     <div class="row">
       <div class="col-md-3">
         <div class="box">
+          <div data-aos="fade-right" data-aos-duration="2000">
           <div class="img-box">
             <img src="<?php echo base_url() ?>assets/images/svg/01.svg" alt="">
           </div>
           <div class="service-content">
-            <h3>STATE OF ART FOUNDRY</h3>
+            <h3>10000 + Kitchens Delivered</h3>
             <!-- <p>Well Equipped Foundry. World class manufacturer of high quality cast products.</p> -->
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="box">
+          <div data-aos="fade-down" data-aos-duration="2000">
+          <div class="img-box">
+            <img src="<?php echo base_url() ?>assets/images/svg/01.svg" alt="">
+          </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="2000">
+          <div class="service-content">
+            <h3>20 years Of Design Excellence</h3>
+            <!-- <p>Well Equipped Foundry. World class manufacturer of high quality cast products.</p> -->
+          </div>
           </div>
         </div>
       </div>
       <div class="col-md-3">
         <div class="box">
+          <div data-aos="fade-down" data-aos-duration="2000">
           <div class="img-box">
             <img src="<?php echo base_url() ?>assets/images/svg/01.svg" alt="">
           </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="2000">
           <div class="service-content">
-            <h3>STATE OF ART FOUNDRY</h3>
+            <h3>20,000 + Sq.Ft. Area on display</h3>
             <!-- <p>Well Equipped Foundry. World class manufacturer of high quality cast products.</p> -->
           </div>
+        </div>
         </div>
       </div>
       <div class="col-md-3">
         <div class="box">
+          <div data-aos="fade-left"  data-aos-duration="2000">
           <div class="img-box">
             <img src="<?php echo base_url() ?>assets/images/svg/01.svg" alt="">
           </div>
           <div class="service-content">
-            <h3>STATE OF ART FOUNDRY</h3>
+            <h3>14000 + Happy Customers</h3>
             <!-- <p>Well Equipped Foundry. World class manufacturer of high quality cast products.</p> -->
           </div>
         </div>
       </div>
-      <div class="col-md-3">
-        <div class="box">
-          <div class="img-box">
-            <img src="<?php echo base_url() ?>assets/images/svg/01.svg" alt="">
-          </div>
-          <div class="service-content">
-            <h3>STATE OF ART FOUNDRY</h3>
-            <!-- <p>Well Equipped Foundry. World class manufacturer of high quality cast products.</p> -->
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -192,18 +216,23 @@
           <h1>Our Process</h1>
           </div>
           <div class="col-md-6 justify-content-center">
+            <div data-aos="fade-right" data-aos-duration="3000">
             <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
               laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
               voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
           </div>
+          </div>
           <div class="col-md-6">
+            <div data-aos="fade-left" data-aos-duration="3000">
             <img src="<?php echo base_url() ?>assets/images/process_img.jpg" alt="">
+          </div>
+
           </div>
         </div>
     </div>
 </div>
-
+<hr>
 <div class="container">
   <div class="testomonial">
     <div class="row">
@@ -212,39 +241,39 @@
       </div>
     </div>
     <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
+  <ol class="carousel-indicators carousel-indicators--round">
     <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner text-center">
     <div class="carousel-item active">
-      <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="<?php echo base_url() ?>assets/images/svg/01.svg" alt="Card image cap">
+      <div class="card" style="width: 40rem;">
+    <img class="card-img-top" src="<?php echo base_url() ?>assets/images/testo1.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+
     </div>
   </div>
     </div>
     <div class="carousel-item">
-      <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="<?php echo base_url() ?>assets/images/svg/01.svg" alt="Card image cap">
+      <div class="card" style="width: 40rem;">
+    <img class="card-img-top" src="<?php echo base_url() ?>assets/images/testo2.jpeg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+
     </div>
   </div>
     </div>
     <div class="carousel-item">
-      <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="<?php echo base_url() ?>assets/images/svg/01.svg" alt="Card image cap">
+      <div class="card" style="width: 40rem;">
+    <img class="card-img-top" src="<?php echo base_url() ?>assets/images/testo3.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+
     </div>
   </div>
     </div>
