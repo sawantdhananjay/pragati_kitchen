@@ -1,6 +1,32 @@
 
   <footer>
-
+    <div class="float-sm">
+  <div class="fl-fl float-fb">
+    <i class="fa fa-facebook"></i>
+    <a href="" target="_blank"> Like us!</a>
+  </div>
+  <div class="fl-fl float-tw">
+    <i class="fa fa-twitter"></i>
+    <a href="" target="_blank">Follow us!</a>
+  </div>
+  <div class="fl-fl float-gp">
+    <i class="fa fa-google-plus"></i>
+    <a href="" target="_blank">Recommend us!</a>
+  </div>
+  <div class="fl-fl float-rs">
+    <i class="fa fa-rss"></i>
+    <a href="" target="_blank">Follow via RSS</a>
+  </div>
+  <div class="fl-fl float-ig">
+    <i class="fa fa-instagram"></i>
+    <a href="" target="_blank">Follow us!</a>
+  </div>
+  <div class="fl-fl float-pn">
+    <i class="fa fa-pinterest"></i>
+    <a href="" target="_blank">Follow us!</a>
+  </div>
+</div>
+<!-- Floating Social Media bar Ends -->
     <div class="container-fluid" id="footer">
       <div class="container">
       <div class="row">
@@ -49,6 +75,7 @@
     <svg style="width:25px; padding-bottom:23px;"  viewBox="0 0 320 512"><path fill="currentColor" d="M168.5 164.2l148 146.8c4.7 4.7 4.7 12.3 0 17l-19.8 19.8c-4.7 4.7-12.3 4.7-17 0L160 229.3 40.3 347.8c-4.7 4.7-12.3 4.7-17 0L3.5 328c-4.7-4.7-4.7-12.3 0-17l148-146.8c4.7-4.7 12.3-4.7 17 0z" class=""></path></svg>
   </i>
 </a>
+
     </footer>
   <script type="text/javascript">
   $('.owl-carousel').owlCarousel({

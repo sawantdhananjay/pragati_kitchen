@@ -45,7 +45,7 @@ class Kitchen_controller extends CI_Controller {
      ';
 
      $recipient = "dhananjay.pixelbazar@gmail.com";
-     $subject = "Mail From New Melting Centre Contact";
+     $subject = "Mail From  Centre Contact";
 
      $headers  = 'MIME-Version: 1.0' . "\r\n";
      $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
