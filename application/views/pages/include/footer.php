@@ -1,6 +1,6 @@
 
   <footer>
-    <div class="float-sm">
+    <!-- <div class="float-sm">
   <div class="fl-fl float-fb">
     <i class="fa fa-facebook"></i>
     <a href="" target="_blank"> Like us!</a>
@@ -25,7 +25,7 @@
     <i class="fa fa-pinterest"></i>
     <a href="" target="_blank">Follow us!</a>
   </div>
-</div>
+</div> -->
 <!-- Floating Social Media bar Ends -->
     <div class="container-fluid" id="footer">
       <div class="container">
@@ -38,20 +38,22 @@
             Maharashtra State (India).
           </p>
         </div>
-        <div class="col-md-4">
-          <h6 class="text-uppercase">Useful links</h6>
+        <div class="col-md-4 col-6">
+          <h6 class="text-uppercase">Quick links : </h6>
 
               <p class="link-footer"><a href="<?php echo base_url(); ?>">Home</a></p>
               <p class="link-footer"><a href="<?php echo base_url(); ?>About-Us">About Us</a></p>
-              <p class="link-footer"><a href="<?php echo base_url(); ?>Products">Products</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>Gallery">Gallery</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>Contact">Contact Us</a></p>
 
         </div>
-        <div class="col-md-4">
-          <h6 class="text-uppercase">Useful links</h6>
+        <div class="col-md-4 col-6">
+          <h6 class="text-uppercase">Social links : </h6>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>">Facebook</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>">Whats Up</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>">Google +</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>">Twitter</a></p>
 
-              <p class="link-footer"><a href="<?php echo base_url(); ?>">Home</a></p>
-              <p class="link-footer"><a href="<?php echo base_url(); ?>About-Us">About Us</a></p>
-              <p class="link-footer"><a href="<?php echo base_url(); ?>Products">Products</a></p>
         </div>
       </div>
     </div>
@@ -70,13 +72,14 @@
   </div>
 
       </div>
-      <a href="#" id="go-top" class="go-top" >
-  <i class="">
-    <svg style="width:25px; padding-bottom:23px;"  viewBox="0 0 320 512"><path fill="currentColor" d="M168.5 164.2l148 146.8c4.7 4.7 4.7 12.3 0 17l-19.8 19.8c-4.7 4.7-12.3 4.7-17 0L160 229.3 40.3 347.8c-4.7 4.7-12.3 4.7-17 0L3.5 328c-4.7-4.7-4.7-12.3 0-17l148-146.8c4.7-4.7 12.3-4.7 17 0z" class=""></path></svg>
-  </i>
-</a>
+
 
     </footer>
+    <a href="#" id="go-top" class="go-top" >
+<i class="">
+  <svg style="width:25px; padding-bottom:0px;"  viewBox="0 0 320 512"><path fill="currentColor" d="M168.5 164.2l148 146.8c4.7 4.7 4.7 12.3 0 17l-19.8 19.8c-4.7 4.7-12.3 4.7-17 0L160 229.3 40.3 347.8c-4.7 4.7-12.3 4.7-17 0L3.5 328c-4.7-4.7-4.7-12.3 0-17l148-146.8c4.7-4.7 12.3-4.7 17 0z" class=""></path></svg>
+</i>
+</a>
   <script type="text/javascript">
   $('.owl-carousel').owlCarousel({
   loop:true,

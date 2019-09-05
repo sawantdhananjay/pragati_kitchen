@@ -30,24 +30,27 @@
     <div class="container">
       <div class="stick">
       <nav class="navbar navbar-expand-lg navbar-light text-center">
+      <!-- <a class="navbar-brand d-block d-sm-none" href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo1.jpg" alt=""></a> -->
+      <a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.jpg" alt="">
+      </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto mx-auto">
       <li class="nav-item ">
-        <a class="nav-link" href="<?php echo base_url(); ?>">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link <?php if($page=='home'){ echo 'active'; }?>" href="<?php echo base_url(); ?>">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>About-Us">About Us</a>
+        <a class="nav-link <?php if($page=='about'){ echo 'active'; }?>" href="<?php echo base_url(); ?>About-Us">About Us</a>
       </li>
-      <a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="">
-      </a>
+      <!-- <a class="navbar-brand d-none d-sm-block" href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.jpg" alt="">
+      </a> -->
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>Gallery">Gallery</a>
+        <a class="nav-link <?php if($page=='gallery'){ echo 'active'; }?>" href="<?php echo base_url(); ?>Gallery">Gallery</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>Contact">Contact</a>
+        <a class="nav-link <?php if($page=='contact'){ echo 'active'; }?>" href="<?php echo base_url(); ?>Contact">Contact</a>
       </li>
     </ul>
   </div>

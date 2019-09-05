@@ -1,4 +1,6 @@
-<?php include('include/header.php'); ?>
+<?php
+$page="gallery";
+include('include/header.php'); ?>
 <div class="gallery-page">
   <div class="container-fluid">
     <div class="parallex-gallery">
@@ -11,31 +13,11 @@
         <h2>Gallery</h2>
       </div>
         </div>
-        <div class="row">
+        <div class="row" id="gal-row">
           <div class="col-md-3">
             <!-- colored -->
-               <div class="ih-item square colored effect13 left_to_right"><a href="#">
-                   <div class="img"><img src="<?php echo base_url(); ?>assets/images/svg/01.svg" alt="img"></div>
-                   <div class="info">
-                     <h3>Heading here</h3>
-                     <p>Description goes here</p>
-                   </div></a></div>
-   <!-- end colored -->
-          </div>
-          <div class="col-md-3">
-            <!-- colored -->
-               <div class="ih-item square colored effect13 left_to_right"><a href="#">
-                   <div class="img"><img src="<?php echo base_url(); ?>assets/images/svg/01.svg" alt="img"></div>
-                   <div class="info">
-                     <h3>Heading here</h3>
-                     <p>Description goes here</p>
-                   </div></a></div>
-   <!-- end colored -->
-          </div>
-          <div class="col-md-3">
-            <!-- colored -->
-             <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                 <div class="img"><img src="<?php echo base_url(); ?>assets/images/svg/01.svg" alt="img"></div>
+             <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
+                 <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/01.jpg" alt="img"></div>
                  <div class="info">
                    <h3>Heading here</h3>
                    <p>Description goes here</p>
@@ -44,43 +26,119 @@
           </div>
           <div class="col-md-3">
             <!-- colored -->
-               <div class="ih-item square colored effect13 left_to_right"><a href="#">
-                   <div class="img"><img src="<?php echo base_url(); ?>assets/images/svg/01.svg" alt="img"></div>
-                   <div class="info">
-                     <h3>Heading here</h3>
-                     <p>Description goes here</p>
-                   </div></a></div>
+             <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
+                 <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/02.jpg" alt="img"></div>
+                 <div class="info">
+                   <h3>Heading here</h3>
+                   <p>Description goes here</p>
+                 </div></a></div>
+   <!-- end colored -->
+          </div>
+          <div class="col-md-3">
+            <!-- colored -->
+             <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
+                 <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/03.jpg" alt="img"></div>
+                 <div class="info">
+                   <h3>Heading here</h3>
+                   <p>Description goes here</p>
+                 </div></a></div>
+   <!-- end colored -->
+          </div>
+          <div class="col-md-3">
+            <!-- colored -->
+             <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
+                 <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/04.jpg" alt="img"></div>
+                 <div class="info">
+                   <h3>Heading here</h3>
+                   <p>Description goes here</p>
+                 </div></a></div>
    <!-- end colored -->
           </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="gal-row">
           <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>assets/images/svg/01.svg" alt="">
+            <!-- colored -->
+             <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
+                 <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/05.jpg" alt="img"></div>
+                 <div class="info">
+                   <h3>Heading here</h3>
+                   <p>Description goes here</p>
+                 </div></a></div>
+   <!-- end colored -->
           </div>
           <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>assets/images/svg/01.svg" alt="">
+            <!-- colored -->
+             <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
+                 <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/06.jpg" alt="img"></div>
+                 <div class="info">
+                   <h3>Heading here</h3>
+                   <p>Description goes here</p>
+                 </div></a></div>
+   <!-- end colored -->
           </div>
           <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>assets/images/svg/01.svg" alt="">
+            <!-- colored -->
+             <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
+                 <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/07.jpg" alt="img"></div>
+                 <div class="info">
+                   <h3>Heading here</h3>
+                   <p>Description goes here</p>
+                 </div></a></div>
+   <!-- end colored -->
           </div>
           <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>assets/images/svg/01.svg" alt="">
+            <!-- colored -->
+             <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
+                 <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/08.jpg" alt="img"></div>
+                 <div class="info">
+                   <h3>Heading here</h3>
+                   <p>Description goes here</p>
+                 </div></a></div>
+   <!-- end colored -->
           </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="gal-row">
           <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>assets/images/svg/01.svg" alt="">
+            <!-- colored -->
+             <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
+                 <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/09.jpg" alt="img"></div>
+                 <div class="info">
+                   <h3>Heading here</h3>
+                   <p>Description goes here</p>
+                 </div></a></div>
+   <!-- end colored -->
           </div>
           <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>assets/images/svg/01.svg" alt="">
+            <!-- colored -->
+             <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
+                 <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/10.jpg" alt="img"></div>
+                 <div class="info">
+                   <h3>Heading here</h3>
+                   <p>Description goes here</p>
+                 </div></a></div>
+   <!-- end colored -->
           </div>
           <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>assets/images/svg/01.svg" alt="">
+            <!-- colored -->
+             <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
+                 <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/11.jpg" alt="img"></div>
+                 <div class="info">
+                   <h3>Heading here</h3>
+                   <p>Description goes here</p>
+                 </div></a></div>
+   <!-- end colored -->
           </div>
           <div class="col-md-3">
-            <img src="<?php echo base_url(); ?>assets/images/svg/01.svg" alt="">
+            <!-- colored -->
+             <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
+                 <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/12.jpg" alt="img"></div>
+                 <div class="info">
+                   <h3>Heading here</h3>
+                   <p>Description goes here</p>
+                 </div></a></div>
+   <!-- end colored -->
           </div>
         </div>
 

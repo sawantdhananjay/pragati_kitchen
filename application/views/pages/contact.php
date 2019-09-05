@@ -1,4 +1,6 @@
-<?php include('include/header.php'); ?>
+<?php
+$page="contact";
+include('include/header.php'); ?>
 <div class="contact-page">
   <div class="container-fluid">
     <div class="parallex-contact">
