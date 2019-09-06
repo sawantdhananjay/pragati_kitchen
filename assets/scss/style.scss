@@ -64,15 +64,18 @@ a:hover{
 .sticky {
 position: fixed !important;
 top: 0px !important;
-left: 10% !important;
+left: 0% !important;
 z-index: 999 !important;
 margin: auto !important;
-width:100% !important;
+// width:100% !important;
 background: $white;
 /* transform: scale(1); */
   @media #{$media-phone} {
     padding: 0px 10px !important;
   }
+}
+.fixed-top{
+  border-top: 4px solid $mycolor;
 }
 #carousel-id{
   margin-top: 0px!important;
@@ -86,8 +89,9 @@ background: $white;
 
  }
 .navbar .nav-item{
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-right: 1px solid $mycolor;
 }
 .navbar{
   .active{
@@ -103,7 +107,7 @@ background: $white;
   .nav-link{
   padding-top: 18px;
     width: 100px;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 700;
     @media #{$media-phone} {
       width: 100%;
@@ -115,7 +119,7 @@ background: $white;
   height: auto;
 
   // box-shadow: 0 -2.804px 16.74px 0.26px #777;
-  padding: 10px;
+  padding: 5px;
   z-index: 1;
 
   @media #{$media-phone} {
@@ -204,12 +208,12 @@ background: $white;
      width: 150px;
      height: 150px;
      border-radius: 50%;
-     border: 1px solid #000;
+     border: 2px solid #5b5b5b;
   }
 
 .img-box svg:hover{
   fill:$mycolor;
-   border: 1px solid $mycolor;
+   border: 2px solid $mycolor;
 }
 
   h3, p{
@@ -240,6 +244,34 @@ background: $white;
     width: 100%;
     height: auto;
   }
+  .under-title-2 {
+    display: block;
+    height: 12px;
+    width: 12px;
+    background: $mycolor;
+    position: relative;
+    bottom: 12px;
+    left: 50%;
+    margin-left: -9px;
+}
+  .under-title-2:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    top: 5px;
+    left: -111px;
+    background: rgba(0,0,0,.34);
+}
+.under-title-2:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    top: 5px;
+    left: 23px;
+    background: rgba(0,0,0,.34);
+}
 }
 // home gallery ends
 
@@ -269,7 +301,7 @@ background: $white;
   }
   img{
     text-align: center;
-    padding: 15px;
+    padding: 50px;
     width: 100%;
     height: auto;
     @media #{$media-phone} {
@@ -289,6 +321,39 @@ background: $white;
   overflow: hidden;
   @media #{$media-phone} {
     padding: 15px 0px;
+  }
+  #pro_p{
+    padding: 25px 40px;
+    margin-left: 10px;
+    margin-right: -8%;
+    z-index: 1;
+    background-color: $white;
+    // border: 1px solid $darkgrey;
+    box-shadow: 0px 0px 3px 3px #676767;
+    h2{
+      font-size: 32px;
+      color: $mycolor;
+    }
+  }
+  #pro_i {
+    padding: 0px!important;
+    img{
+      height: 100%;
+  }
+}
+  #pro_s{
+    padding: 0px!important;
+    height: auto;
+    img{
+      background-color: $mycolor;
+      padding-top: 25px;
+      margin-left: 4px;
+      margin-bottom: 4px;
+      height: 150px;
+    }
+    img:hover{
+      background-color: #57c2b1;
+    }
   }
   p{
     text-align: justify;
@@ -323,7 +388,7 @@ background: $white;
     font-size: 36px;
     text-align: center;
     padding-top: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     @media #{$media-phone} {
       padding: 15px 0px;
       font-size: 32px;
@@ -337,8 +402,8 @@ background: $white;
   }
   img{
     text-align: center;
-    width: 250px!important;
-    height: 250px!important;
+    width: 200px!important;
+    height: 200px!important;
     border-radius: 50%;
     @media #{$media-phone} {
       width: 150px!important;
@@ -638,6 +703,7 @@ img {
    padding:15px 0px!important;
   }
     img{
+      fill:$mycolor;
       padding: 5px;
       margin: 15px;
       @media #{$media-phone} {

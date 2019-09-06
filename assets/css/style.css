@@ -49,15 +49,17 @@ a:hover {
 .sticky {
   position: fixed !important;
   top: 0px !important;
-  left: 10% !important;
+  left: 0% !important;
   z-index: 999 !important;
   margin: auto !important;
-  width: 100% !important;
   background: #fff;
   /* transform: scale(1); */ }
   @media only screen and (max-width: 480px) {
     .sticky {
       padding: 0px 10px !important; } }
+
+.fixed-top {
+  border-top: 4px solid #d2243f; }
 
 #carousel-id {
   margin-top: 0px !important; }
@@ -70,8 +72,9 @@ a:hover {
   overflow: hidden; }
 
 .navbar .nav-item {
-  padding-left: 30px;
-  padding-right: 30px; }
+  padding-left: 25px;
+  padding-right: 25px;
+  border-right: 1px solid #d2243f; }
 
 .navbar .active {
   color: rgba(210, 35, 63, 0.9) !important;
@@ -86,7 +89,7 @@ a:hover {
 .navbar .nav-link {
   padding-top: 18px;
   width: 100px;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 700; }
   @media only screen and (max-width: 480px) {
     .navbar .nav-link {
@@ -95,7 +98,7 @@ a:hover {
 .navbar-brand {
   width: 100%;
   height: auto;
-  padding: 10px;
+  padding: 5px;
   z-index: 1; }
   @media only screen and (max-width: 480px) {
     .navbar-brand {
@@ -167,10 +170,10 @@ a:hover {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 1px solid #000; }
+    border: 2px solid #5b5b5b; }
   #happy-clients .img-box svg:hover {
     fill: #d2243f;
-    border: 1px solid #d2243f; }
+    border: 2px solid #d2243f; }
   #happy-clients h3, #happy-clients p {
     padding-top: 10px;
     font-size: 18px;
@@ -192,6 +195,31 @@ a:hover {
   .home-gallery .item img {
     width: 100%;
     height: auto; }
+  .home-gallery .under-title-2 {
+    display: block;
+    height: 12px;
+    width: 12px;
+    background: #d2243f;
+    position: relative;
+    bottom: 12px;
+    left: 50%;
+    margin-left: -9px; }
+  .home-gallery .under-title-2:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    top: 5px;
+    left: -111px;
+    background: rgba(0, 0, 0, 0.34); }
+  .home-gallery .under-title-2:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    top: 5px;
+    left: 23px;
+    background: rgba(0, 0, 0, 0.34); }
 
 #speciality {
   margin: 50px 0px !important;
@@ -215,7 +243,7 @@ a:hover {
         margin-top: -15px; } }
   #speciality img {
     text-align: center;
-    padding: 15px;
+    padding: 50px;
     width: 100%;
     height: auto; }
     @media only screen and (max-width: 480px) {
@@ -231,6 +259,32 @@ a:hover {
   @media only screen and (max-width: 480px) {
     .process {
       padding: 15px 0px; } }
+  .process #pro_p {
+    padding: 25px 40px;
+    margin-left: 10px;
+    margin-right: -8%;
+    z-index: 1;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 3px 3px #676767;
+    box-shadow: 0px 0px 3px 3px #676767; }
+    .process #pro_p h2 {
+      font-size: 32px;
+      color: #d2243f; }
+  .process #pro_i {
+    padding: 0px !important; }
+    .process #pro_i img {
+      height: 100%; }
+  .process #pro_s {
+    padding: 0px !important;
+    height: auto; }
+    .process #pro_s img {
+      background-color: #d2243f;
+      padding-top: 25px;
+      margin-left: 4px;
+      margin-bottom: 4px;
+      height: 150px; }
+    .process #pro_s img:hover {
+      background-color: #57c2b1; }
   .process p {
     text-align: justify; }
   .process h1 {
@@ -257,7 +311,7 @@ a:hover {
     font-size: 36px;
     text-align: center;
     padding-top: 0px;
-    padding-bottom: 50px; }
+    padding-bottom: 30px; }
     @media only screen and (max-width: 480px) {
       .testomonial h1 {
         padding: 15px 0px;
@@ -269,8 +323,8 @@ a:hover {
         width: 20rem; } }
   .testomonial img {
     text-align: center;
-    width: 250px !important;
-    height: 250px !important;
+    width: 200px !important;
+    height: 200px !important;
     border-radius: 50%; }
     @media only screen and (max-width: 480px) {
       .testomonial img {
@@ -502,6 +556,7 @@ footer {
       .about-page #about-middle {
         padding: 15px 0px !important; } }
     .about-page #about-middle img {
+      fill: #d2243f;
       padding: 5px;
       margin: 15px; }
       @media only screen and (max-width: 480px) {

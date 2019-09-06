@@ -27,9 +27,10 @@
 
 
       <!--navbar start-->
-    <div class="container">
-      <div class="stick">
-      <nav class="navbar navbar-expand-lg navbar-light text-center">
+      <div class="container-fluid fixed-top bg-white">
+    <div class="container ">
+      <!-- <div class="stick"> -->
+      <nav class="navbar navbar-expand-lg  navbar-light text-center">
       <!-- <a class="navbar-brand d-block d-sm-none" href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo1.jpg" alt=""></a> -->
       <a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.jpg" alt="">
       </a>
@@ -49,12 +50,13 @@
       <li class="nav-item">
         <a class="nav-link <?php if($page=='gallery'){ echo 'active'; }?>" href="<?php echo base_url(); ?>Gallery">Gallery</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item" style="border-right:none;">
         <a class="nav-link <?php if($page=='contact'){ echo 'active'; }?>" href="<?php echo base_url(); ?>Contact">Contact</a>
       </li>
     </ul>
   </div>
 </nav>
-</div>
+<!-- </div> -->
+    </div>
     </div>
   <!--navbar ends-->

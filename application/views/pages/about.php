@@ -31,13 +31,13 @@ include('include/header.php'); ?>
           </div>
           <div class="col-md-4 left">
             <h4>Customized Kitchen Solutions</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost</p>
+            <p>This interactive and inspiring design tool allows homeowners to customize their new kitchen in the virtual world by selecting from various kitchen layouts. Custom furnish kitchens are aesthetically designed to fulfill individual needs and adapt to available space.</p>
             <div class="d-block d-sm-none">
               <img src="<?php echo base_url(); ?>assets/images/svg/custom01.svg" alt="">
             </div>
             <br><br>
-            <h4>Easy installation</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost</p>
+            <h4>Easy Installation</h4>
+            <p>Once you place your order, we’ll gather the elements together and assemble them for you.  So you just need to put them in position, secure them to the walls and add the finishing touches.</p>
             <div class="d-block d-sm-none">
               <img src="<?php echo base_url(); ?>assets/images/svg/custom02.svg" alt="">
             </div>
@@ -50,17 +50,17 @@ include('include/header.php'); ?>
           <div class="col-md-2 d-none d-sm-block">
             <img src="<?php echo base_url(); ?>assets/images/svg/delivery.svg" alt="">
             <br>
-            <img src="<?php echo base_url(); ?>assets/images/svg/quality.svg" alt="">
+            <img src="<?php echo base_url(); ?>assets/images/svg/quantity1.svg" alt="">
           </div>
           <div class="col-md-4 right">
             <h4>Timely Delivery</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost</p>
+            <p>We want our customers to have a positive experience in all their dealings with us. We aim at fulfilling our customers’ expectations in regard to all aspects of our engagement, not least in regard to delivering on time and according to budget.</p>
             <div class="d-block d-sm-none">
               <img src="<?php echo base_url(); ?>assets/images/svg/delivery.svg" alt="">
             </div>
             <br><br>
             <h4>Trusted Quality</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost</p>
+            <p>We understand that quality and safety go hand in hand. We are dedicated to providing safe, high-quality product and take that responsibility very seriously.</p>
             <div class="d-block d-sm-none">
               <img src="<?php echo base_url(); ?>assets/images/svg/quality.svg" alt="">
             </div>

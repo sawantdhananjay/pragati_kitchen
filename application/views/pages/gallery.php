@@ -19,7 +19,7 @@ include('include/header.php'); ?>
              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
                  <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/01.jpg" alt="img"></div>
                  <div class="info">
-                   <h3>Heading here</h3>
+                   <h3>Pragati Kitchen</h3>
                    <p>Description goes here</p>
                  </div></a></div>
    <!-- end colored -->
@@ -29,7 +29,7 @@ include('include/header.php'); ?>
              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
                  <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/02.jpg" alt="img"></div>
                  <div class="info">
-                   <h3>Heading here</h3>
+                   <h3>Pragati Kitchen</h3>
                    <p>Description goes here</p>
                  </div></a></div>
    <!-- end colored -->
@@ -39,7 +39,7 @@ include('include/header.php'); ?>
              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
                  <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/03.jpg" alt="img"></div>
                  <div class="info">
-                   <h3>Heading here</h3>
+                   <h3>Pragati Kitchen</h3>
                    <p>Description goes here</p>
                  </div></a></div>
    <!-- end colored -->
@@ -49,7 +49,7 @@ include('include/header.php'); ?>
              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
                  <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/04.jpg" alt="img"></div>
                  <div class="info">
-                   <h3>Heading here</h3>
+                   <h3>Pragati Kitchen</h3>
                    <p>Description goes here</p>
                  </div></a></div>
    <!-- end colored -->
@@ -62,7 +62,7 @@ include('include/header.php'); ?>
              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
                  <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/05.jpg" alt="img"></div>
                  <div class="info">
-                   <h3>Heading here</h3>
+                   <h3>Pragati Kitchen</h3>
                    <p>Description goes here</p>
                  </div></a></div>
    <!-- end colored -->
@@ -72,7 +72,7 @@ include('include/header.php'); ?>
              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
                  <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/06.jpg" alt="img"></div>
                  <div class="info">
-                   <h3>Heading here</h3>
+                   <h3>Pragati Kitchen</h3>
                    <p>Description goes here</p>
                  </div></a></div>
    <!-- end colored -->
@@ -82,7 +82,7 @@ include('include/header.php'); ?>
              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
                  <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/07.jpg" alt="img"></div>
                  <div class="info">
-                   <h3>Heading here</h3>
+                   <h3>Pragati Kitchen</h3>
                    <p>Description goes here</p>
                  </div></a></div>
    <!-- end colored -->
@@ -92,7 +92,7 @@ include('include/header.php'); ?>
              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
                  <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/08.jpg" alt="img"></div>
                  <div class="info">
-                   <h3>Heading here</h3>
+                   <h3>Pragati Kitchen</h3>
                    <p>Description goes here</p>
                  </div></a></div>
    <!-- end colored -->
@@ -105,7 +105,7 @@ include('include/header.php'); ?>
              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
                  <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/09.jpg" alt="img"></div>
                  <div class="info">
-                   <h3>Heading here</h3>
+                   <h3>Pragati Kitchen</h3>
                    <p>Description goes here</p>
                  </div></a></div>
    <!-- end colored -->
@@ -115,7 +115,7 @@ include('include/header.php'); ?>
              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
                  <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/10.jpg" alt="img"></div>
                  <div class="info">
-                   <h3>Heading here</h3>
+                   <h3>Pragati Kitchen</h3>
                    <p>Description goes here</p>
                  </div></a></div>
    <!-- end colored -->
@@ -125,7 +125,7 @@ include('include/header.php'); ?>
              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
                  <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/11.jpg" alt="img"></div>
                  <div class="info">
-                   <h3>Heading here</h3>
+                   <h3>Pragati Kitchen</h3>
                    <p>Description goes here</p>
                  </div></a></div>
    <!-- end colored -->
@@ -135,7 +135,7 @@ include('include/header.php'); ?>
              <div class="ih-item square colored effect6 from_top_and_bottom"><a href="javascript:void(0)">
                  <div class="img"><img src="<?php echo base_url(); ?>assets/images/gallery/12.jpg" alt="img"></div>
                  <div class="info">
-                   <h3>Heading here</h3>
+                   <h3>Pragati Kitchen</h3>
                    <p>Description goes here</p>
                  </div></a></div>
    <!-- end colored -->
