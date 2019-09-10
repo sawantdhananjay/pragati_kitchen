@@ -31,34 +31,40 @@
       <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h6 class="text-uppercase ">office : </h6>
+          <h6 class="text-uppercase">Showroom : </h6>
           <p class="contact-footer mob-cen">
-             Plot No. 11, Building No. 12,
-             Y. P. Powar Nagar, Kolhapur - 416008.
-            Maharashtra State (India).
+             1082/1, Shop No. B-7 'Omkar Plaza' Near ICICI Bank,
+            Below Karnataka bank, Rajaram Road, Bagal Chowk, Kolhapur - 416001
+          </p>
+          <h6 class="text-uppercase ">Workshop : </h6>
+          <p class="contact-footer mob-cen">
+             1228/32, Y. P. Powar Nagar,
+             Opp.Rajesh Granite Kolhapur - 416008.
           </p>
         </div>
-        <div class="col-md-4 col-6">
+        <div class="col-md-3 col-6">
           <h6 class="text-uppercase">Quick links : </h6>
-
               <p class="link-footer"><a href="<?php echo base_url(); ?>">Home</a></p>
               <p class="link-footer"><a href="<?php echo base_url(); ?>About-Us">About Us</a></p>
               <p class="link-footer"><a href="<?php echo base_url(); ?>Gallery">Gallery</a></p>
               <p class="link-footer"><a href="<?php echo base_url(); ?>Contact">Contact Us</a></p>
-
         </div>
-        <div class="col-md-4 col-6">
+        <div class="col-md-2 col-6">
           <h6 class="text-uppercase">Social links : </h6>
               <p class="link-footer"><a href="<?php echo base_url(); ?>">Facebook</a></p>
               <p class="link-footer"><a href="<?php echo base_url(); ?>">Whats Up</a></p>
               <p class="link-footer"><a href="<?php echo base_url(); ?>">Google +</a></p>
               <p class="link-footer"><a href="<?php echo base_url(); ?>">Twitter</a></p>
-
+        </div>
+        <div class="col-md-3 col-12">
+          <h6 class="text-uppercase">Contact : </h6>
+              <p><i class="fa fa-mobile mr-2" aria-hidden="true"></i> +91 9822592823</p>
+              <p><i class="fa fa-mobile mr-2" aria-hidden="true"></i>+91 9922949770</p>
+              <p><i class="fa fa-envelope-o mr-2" aria-hidden="true"></i>info@pragatikitchen.com</p>
         </div>
       </div>
     </div>
       </div>
-
       <div class="container-fluid" id="footer-copyright">
         <div class="container">
         <div class="row">
@@ -67,7 +73,6 @@
         <a href="#" > Pragati Kitchen Pvt. Ltd. <span class="footer-copyright">All rights reserved.</span> </a></p>
       </div>
           </div>
-
     </div>
   </div>
 

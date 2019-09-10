@@ -48,7 +48,7 @@ include('include/header.php'); ?>
             <img src="<?php echo base_url(); ?>assets/images/svg/custom02.svg" alt="">
           </div>
           <div class="col-md-2 d-none d-sm-block">
-            <img src="<?php echo base_url(); ?>assets/images/svg/delivery.svg" alt="">
+            <img src="<?php echo base_url(); ?>assets/images/svg/delivery1.svg" alt="">
             <br>
             <img src="<?php echo base_url(); ?>assets/images/svg/quantity1.svg" alt="">
           </div>

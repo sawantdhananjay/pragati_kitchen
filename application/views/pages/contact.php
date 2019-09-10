@@ -15,14 +15,21 @@ include('include/header.php'); ?>
     </div>
     <div class="row">
       <div class="col-md-6" id="contact-left">
-        <h4>Office</h4>
-        <p>Plot No. 11, Building No. 12, Y. P. Powar Nagar, Kolhapur - 416008. Maharashtra State (India).</p>
+        <h4>SHOWROOM : </h4>
+        <p>1082/1, Shop No. B-7 'Omkar Plaza' Near ICICI Bank, Below Karnataka bank, Rajaram Road, Bagal Chowk, Kolhapur - 416001</p>
         <br>
-        <h4>Contact No.</h4>
-        <p>987 654 1310</p>
+        <h4>WORKSHOP : </h4>
+        <p>1228/32, Y. P. Powar Nagar, Opp.Rajesh Granite Kolhapur - 416008.</p>
         <br>
-        <h4>Email Id</h4>
-        <p>abc@pragatikitchen.com</p>
+        <h4>Contact No : </h4>
+        <p class="contact-mob-h d-none d-sm-block"><i class="fa fa-mobile mr-2" aria-hidden="true"></i>+91 9822592823 <span class="ml-5 m-b"><i class="fa fa-mobile mr-2" aria-hidden="true"></i>+91 9922949770</span> </p>
+        <div class="con-mob d-block d-sm-none">
+          <p><i class="fa fa-mobile mr-2" aria-hidden="true"></i>+91 9822592823</p>
+          <p><i class="fa fa-mobile mr-2" aria-hidden="true"></i>+91 9922949770</p>
+        </div>
+        <br>
+        <h4>Email Id : </h4>
+        <p><i class="fa fa-envelope-o mr-2" aria-hidden="true"></i>info@pragatikitchen.com</p>
       </div>
       <div class="col-md-6" id="contact-right">
         <form action="<?php echo base_url(); ?>Kitchen_controller/send_feedback" method="post" id="contact_form">

@@ -283,7 +283,7 @@ include('include/header.php'); ?>
   <div class="carousel-inner text-center">
     <div class="carousel-item active">
       <div class="card" >
-    <img class="card-img-top" src="<?php echo base_url() ?>assets/images/testo1.jpg" alt="Card image cap">
+    <img class="card-img-top" src="<?php echo base_url() ?>assets/images/sample1.png" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -293,7 +293,7 @@ include('include/header.php'); ?>
     </div>
     <div class="carousel-item">
       <div class="card" >
-    <img class="card-img-top" src="<?php echo base_url() ?>assets/images/testo2.jpeg" alt="Card image cap">
+    <img class="card-img-top" src="<?php echo base_url() ?>assets/images/sample2.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -303,7 +303,7 @@ include('include/header.php'); ?>
     </div>
     <div class="carousel-item">
       <div class="card" >
-    <img class="card-img-top" src="<?php echo base_url() ?>assets/images/testo3.jpg" alt="Card image cap">
+    <img class="card-img-top" src="<?php echo base_url() ?>assets/images/sample3.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
