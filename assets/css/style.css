@@ -710,7 +710,11 @@ footer {
       padding-top: 30px; }
       @media only screen and (max-width: 480px) {
         .contact-page #contact #contact-left {
-          padding-top: 15px; } }
+          padding-top: 15px; }
+          .contact-page #contact #contact-left br {
+            display: none; } }
+      .contact-page #contact #contact-left h4 {
+        padding-bottom: 10px; }
       @media only screen and (max-width: 480px) {
         .contact-page #contact #contact-left h4, .contact-page #contact #contact-left p {
           text-align: center; } }

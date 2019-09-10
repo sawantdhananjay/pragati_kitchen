@@ -891,8 +891,13 @@ img {
 
       @media #{$media-phone} {
         padding-top: 15px;
-
+        br{
+          display:none;
+        }
   }
+      h4{
+        padding-bottom: 10px;
+      }
       h4, p{
         @media #{$media-phone} {
           text-align: center;
